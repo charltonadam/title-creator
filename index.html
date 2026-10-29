@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title Calibration Office</title>
+  <meta name="description" content="Enter your name and receive your officially calibrated software engineering career path. Past titles, current title, and the titles you have to look forward to.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪪</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Office of Title Calibration &middot; Career Framework v47.2</p>
+      <h1>What's the difference between a Senior Engineer and a Staff Engineer?</h1>
+      <p class="lede">
+        We've stopped having that conversation. Instead, every engineer now receives a
+        <em>personally calibrated</em> career path, drawn from
+        <strong id="title-count">millions of</strong> rigorously meaningless titles.
+      </p>
+
+      <form id="name-form" class="name-form" autocomplete="off">
+        <label for="name-input" class="visually-hidden">Your name</label>
+        <input id="name-input" name="name" type="text" maxlength="80" placeholder="Enter your name" required>
+        <button type="submit" class="button">Calibrate my career</button>
+      </form>
+      <p class="fine-print">Your path is deterministic. Same name, same destiny. Appeals are handled via reorg.</p>
+    </section>
+
+    <section id="results" class="results" aria-live="polite" hidden></section>
+
+    <footer class="footer">
+      <p>All titles are equally valid and have been approved by a committee that meets quarterly to discuss what &ldquo;senior&rdquo; means.</p>
+      <p>No career ladders were harmed. Several were bikeshedded.</p>
+    </footer>
+  </main>
+
+  <script src="js/titles.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
