@@ -2,7 +2,7 @@
 
 A tongue-in-cheek career path generator for software engineers. Enter a name and get a personally calibrated career: the titles you've held, the one you hold now, and the increasingly grand titles waiting for you.
 
-Ends the "what's the actual difference between Senior and Staff?" conversation by making the answer meaningless in over 14 million ways.
+Ends the "what's the actual difference between Senior and Staff?" conversation by making the answer meaningless in over 450 million ways.
 
 - **Deterministic:** the same name always produces the same career (case and spacing are ignored), so links are shareable: `?name=Ada%20Lovelace`
 - **Appeals:** "Request a reorg" reshuffles the path (`&reorg=1`, `&reorg=2`, …)
